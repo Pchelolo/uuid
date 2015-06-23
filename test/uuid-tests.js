@@ -216,4 +216,10 @@ describe('TimeUuid', function () {
             assert.strictEqual(val.getNodeId().toString('hex'), '7f7f7f7f7f7f');
         });
     });
+    describe('test()', function() {
+        it ('should correctly test if the uuid is a valid v1 uuid', function() {
+            assert.strictEqual(TimeUuid.test(TimeUuid.now().toString()), true);
+            assert.strictEqual(TimeUuid.test("asdfasdfasdf"), false);
+        })
+    })
 });
