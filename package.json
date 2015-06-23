@@ -1,0 +1,17 @@
+{
+  "name": "uuid",
+  "version": "0.0.1",
+  "description": "\"A package for uuid generation\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Petr Pchelko",
+  "license": "Apache2",
+  "dependencies": {
+    "long": "^2.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
