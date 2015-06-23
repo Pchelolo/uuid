@@ -1,15 +1,25 @@
 {
   "name": "uuid",
   "version": "0.0.1",
-  "description": "\"A package for uuid generation\"",
+  "description": "A package for RFC4122 (v1 and v4) uuid generation",
+  "url": "http://github.com/Pchelolo/uuid",
+  "keywords": [
+    "uuid",
+    "guid",
+    "rfc4122"
+  ],
+  "author": "Petr Pchelko <petr.pchelko@gmail.com>",
+  "license": "Apache2",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
-  "author": "Petr Pchelko",
-  "license": "Apache2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pchelolo/uuid.git"
+  },
   "dependencies": {
-    "long": "^2.2.0"
+    "long": "^2.2.5"
   },
   "devDependencies": {
     "mocha": "^2.2.5"
