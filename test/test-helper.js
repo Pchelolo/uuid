@@ -1,6 +1,8 @@
 "use strict";
 const assert = require('assert');
 
+function noop() {}
+
 const helper = {
 	/**
 	 * @param {Number} count
