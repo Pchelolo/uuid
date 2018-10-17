@@ -135,7 +135,7 @@ describe('Uuid', function () {
       const values = {};
       const length = 100000;
       
-      utils.times(length, function eachTime(n, next) {
+      helper.times(length, function eachTime(n, next) {
         Uuid.random(function (err, val) {
           if (err) {
             return next(err);
