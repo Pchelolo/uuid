@@ -1,6 +1,6 @@
 {
   "name": "cassandra-uuid",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "A package for RFC4122 (v1 and v4) uuid generation",
   "url": "http://github.com/Pchelolo/uuid",
   "keywords": [
