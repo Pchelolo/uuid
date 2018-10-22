@@ -2,3 +2,4 @@ extends: 'eslint-config-node-services'
 
 rules: 
   no-bitwise: 0
+  no-use-before-define: 1
